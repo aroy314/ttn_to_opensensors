@@ -1,6 +1,6 @@
 {
-    "ttnAppID":"your-app-id",
-	"ttnAPIkey":"your-api-hey",
-    "osURL":"https://realtime.opensensors.io/v1/topics//users/your-username/your-device-name?client-id=YourClientID&password=YourPassword",
-    "osAPIkey":"your-api-key"
+    "ttnAppID":"your-ttn-app-id",
+	"ttnAPIkey":"your-ttn-api-hey",
+    "osURL":"https://realtime.opensensors.io/v1/topics//users/your-opensensors-username/your-opensensors-device?client-id=YourClientID&password=YourPassword",
+    "osAPIkey":"your-opensensors-api-key"
 }
