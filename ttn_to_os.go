@@ -147,10 +147,3 @@ func waitKeyPressed() bool {
 	}
 	return response == "\n"
 }
-
-//working "hello world" curl command :
-//curl -X POST --header "Content-Type: application/json" --header "Authorization: api-key 3deb3232-95ce-43be-8933-7e52145d48c0" -d '{"data": "Hello World"}' "https://realtime.opensensors.io/v1/topics//users/aroy314/MyFirstDevice?client-id=5596&password=yuFZtRqi"
-
-//with mosquitto :
-//mosquitto_sub -h eu.thethings.network:1883 -d -t 'my-app-id/devices/my-dev-id/up'
-//mosquitto_pub -h mqtt.opensensors.io -i 5596 -t /users/aroy314/test -u aroy314 -m 'My first message' -P yuFZtRqi
