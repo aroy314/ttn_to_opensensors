@@ -1,6 +1,6 @@
 
 # ttn_to_opensensors
-go project to connect TheThignsNetwork to OpenSensors
+go project to connect TheThingsNetwork to OpenSensors
 
 ## set up
 * create your device+topic on opensensors website
